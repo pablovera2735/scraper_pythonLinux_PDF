@@ -1,0 +1,14 @@
+Pablo2735@bazzite:~/Descargas$ sudo rpm-ostree install python3 --allow-inactive
+
+
+python3 -m venv venv
+
+
+Pablo2735@bazzite:~/Descargas$ pip install playwright
+
+
+Pablo2735@bazzite:~/Descargas$ python -m playwright install chromium
+
+
+Pablo2735@bazzite:~/Descargas$ flatpak run com.google.Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-debug
+
